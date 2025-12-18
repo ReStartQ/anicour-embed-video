@@ -1,0 +1,23 @@
+{
+	"name": "anicour-embed-video",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "npm run build && wrangler pages dev",
+		"postinstall": "nuxt prepare",
+		"deploy": "npm run build && wrangler pages deploy",
+		"cf-typegen": "wrangler types"
+	},
+	"dependencies": {
+		"nuxt": "^4.2.2",
+		"vue": "^3.5.25",
+		"vue-router": "^4.6.4"
+	},
+	"devDependencies": {
+		"nitro-cloudflare-dev": "^0.2.2",
+		"wrangler": "^4.55.0"
+	}
+}
