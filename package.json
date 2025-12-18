@@ -12,6 +12,8 @@
 		"cf-typegen": "wrangler types"
 	},
 	"dependencies": {
+		"@iconify-json/lucide": "^1.2.81",
+		"@nuxt/ui": "^4.3.0",
 		"nuxt": "^4.2.2",
 		"vue": "^3.5.25",
 		"vue-router": "^4.6.4"
