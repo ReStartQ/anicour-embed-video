@@ -1,6 +1,6 @@
-# Nuxt Minimal Starter
+# anicour-embed-video
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Site used to get embedded youtube videos for AniCour. 
 
 ## Setup
 
@@ -72,4 +72,7 @@ yarn preview
 bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Resources
+[Nuxt documentation](https://nuxt.com/docs/getting-started/introduction)
+
+[Deployment documentation](https://nuxt.com/docs/getting-started/deployment) 
